@@ -16,19 +16,19 @@ body{
 
 header{
     background-color: yellow;
-    height: 100px;
+    height: 100%;
     grid-area: h;
 }
 
 main{
     background-color: tomato;
-    height: 100px;
+    height: 100%;
     grid-area: m;    
 }
 
 aside{
     background-color: cornflowerblue;
-    height: 100px;
+    height: 100%;
     grid-area: a;
 }
 
