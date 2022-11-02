@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(169, 112, 207);
+}
+
+.container{
+    
+    color: white;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "h h"
+                         "m a"
+                         "f .";
+}
+
+header{
+    background-color: yellow;
+    height: 100px;
+    grid-area: h;
+}
+
+main{
+    background-color: tomato;
+    height: 100px;
+    grid-area: m;    
+}
+
+aside{
+    background-color: cornflowerblue;
+    height: 100px;
+    grid-area: a;
+}
+
+footer{
+    background-color: palegreen;
+    height: 100px;
+    grid-area: f;
+}
